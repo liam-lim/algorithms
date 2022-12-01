@@ -10,18 +10,18 @@ import java.util.Map;
  * <a href="https://leetcode.com/problems/two-sum/"> Two Sum </a>
  * <a href="https://www.youtube.com/watch?v=KLlXCFG5TnA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf&ab_channel=NeetCode"> Answer </a>
  */
-
-public class TwoSumTest {
-
+public class LC1TwoSumTest {
     @Test
     public void test() {
+        // mock
         int[] numArr = {3, 2, 4};
         int target = 6;
-
-        int[] result = twoSum(numArr, target);
-
         int[] expected = {1, 2};
 
+        // execute
+        int[] result = twoSum(numArr, target);
+
+        // assert
         Assertions.assertThat(result).isEqualTo(expected);
     }
 
