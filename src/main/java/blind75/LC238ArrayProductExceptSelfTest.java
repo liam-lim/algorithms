@@ -3,11 +3,6 @@ package blind75;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * <a href="https://leetcode.com/problems/product-of-array-except-self/"> Product of array except self </a>
  * <a href="https://www.youtube.com/watch?v=bNvIQI2wAjk&ab_channel=NeetCode"> Answer </a>

@@ -59,6 +59,7 @@ public class LC53MaxSubArrayTest {
         // assert
         Assertions.assertThat(result).isEqualTo(expected);
     }
+
     public int maxSubArray(int[] arr) {
 
         int max = arr[0];
