@@ -10,7 +10,7 @@ import java.util.Set;
 
 /**
  * <a href="https://leetcode.com/problems/product-of-array-except-self/"> Product of array except self </a>
- * <a href=""> Answer </a>
+ * <a href="https://www.youtube.com/watch?v=bNvIQI2wAjk&ab_channel=NeetCode"> Answer </a>
  */
 public class LC238ArrayProductExceptSelfTest {
 
