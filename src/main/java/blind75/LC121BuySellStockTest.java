@@ -4,8 +4,8 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * <a href="https://leetcode.com/problems/contains-duplicate/"> Contains duplicate </a>
- * <a href="https://www.youtube.com/watch?v=3OamzN90kPg&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf&index=5&ab_channel=NeetCode"> Answer </a>
+ * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"> Buy and sell stock </a>
+ * <a href="https://www.youtube.com/watch?v=1pkOgXD63yU&ab_channel=NeetCode"> Answer </a>
  */
 public class LC121BuySellStockTest {
 
