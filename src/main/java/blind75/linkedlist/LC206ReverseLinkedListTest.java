@@ -66,26 +66,45 @@ public class LC206ReverseLinkedListTest {
         int[] expected = {5, 4, 3, 2, 1};
 
         // execute
-        ListNode result = reverseList(listNode);
+        ListNode result = reverseList2(listNode);
 
         // assert
         Assertions.assertThat(ListNode.convertToArray(result)).isEqualTo(expected);
     }
 
-    public ListNode reverseList(ListNode listNode) {
+    public ListNode reverseList(ListNode head) {
 
-        if (listNode == null) {
+        if (head == null) {
             return null;
         }
 
         ListNode reversed = null;
 
-        ListNode temp = listNode;
-        while (temp != null) {
-            reversed = new ListNode(temp.val, reversed);
-            temp = temp.next;
+        ListNode curr = head;
+        while (curr != null) {
+            reversed = new ListNode(curr.val, reversed);
+            curr = curr.next;
         }
 
         return reversed;
+    }
+
+    public ListNode reverseList2(ListNode listNode) {
+
+        if (listNode == null) {
+            return null;
+        }
+
+        ListNode prev = null;
+        ListNode curr = listNode;
+
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        return prev;
     }
 }
