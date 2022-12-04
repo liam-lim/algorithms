@@ -1,4 +1,4 @@
-package blind75;
+package blind75.linkedlist;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
